@@ -14,5 +14,5 @@ variable "key_name" {
 
 variable "instance_type" {
   type    = string
-  default = "t3.micro"
+  default = "c7i-flex.large"
 }

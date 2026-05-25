@@ -90,3 +90,4 @@ jobs:
 
           echo "Deployment complete: ${{ needs.build-and-test.outputs.image }}"
           docker ps
+          
