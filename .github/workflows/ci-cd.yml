@@ -3,11 +3,7 @@ name: CI/CD — Build Test Deploy
 on:
   push:
     branches: [ main ]
-    paths:
-      - 'app/**'
-      - 'Dockerfile'
-      - 'nginx.conf'
-      - 'monitoring/**'
+    
 
 env:
   AWS_REGION: ap-south-1
